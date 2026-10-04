@@ -1,0 +1,36 @@
+{
+    "birds": [
+        {
+            "bird": "hen",
+            "interval": 3,
+            "jitter": 0.2,
+            "laneMax": 15,
+            "laneMin": 0
+        },
+        {
+            "bird": "hen",
+            "interval": 3,
+            "jitter": 0.2,
+            "laneMax": 15,
+            "laneMin": 0,
+            "startOffset": 1.5
+        }
+    ],
+    "coinMultiplier": 1.1,
+    "duration": 75,
+    "eggMix": {
+        "golden": 0.05,
+        "normal": 0.95
+    },
+    "firstDrop": 1.2,
+    "forgivenessPx": 8,
+    "id": "1-5",
+    "name": "Two Hens",
+    "objective": {
+        "target": 10,
+        "type": "comboReach"
+    },
+    "order": 50,
+    "parScore": 2249.5,
+    "world": 1
+}

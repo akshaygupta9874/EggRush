@@ -1,0 +1,38 @@
+{
+    "birds": [
+        {
+            "bird": "hen",
+            "interval": 2.8,
+            "jitter": 0.2,
+            "laneMax": 15,
+            "laneMin": 0
+        },
+        {
+            "bird": "moving",
+            "interval": 2.8,
+            "jitter": 0.2,
+            "laneMax": 13,
+            "laneMin": 2,
+            "maxHopPx": 480,
+            "startOffset": 1.4
+        }
+    ],
+    "coinMultiplier": 1.15,
+    "duration": 80,
+    "eggMix": {
+        "golden": 0.06,
+        "normal": 0.94
+    },
+    "firstDrop": 1.2,
+    "forgivenessPx": 8,
+    "id": "1-6",
+    "name": "On the Move",
+    "objective": {
+        "birdIndex": 1,
+        "target": 5,
+        "type": "birdStreak"
+    },
+    "order": 60,
+    "parScore": 2834.5,
+    "world": 1
+}

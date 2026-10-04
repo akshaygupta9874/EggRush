@@ -1,0 +1,6 @@
+[
+  { "id": "normal", "type": "normal", "gravityScale": 1.0, "score": 10,  "coins": 1,  "threat": 1.0, "missHalfHearts": 1 },
+  { "id": "golden", "type": "golden", "gravityScale": 1.0, "score": 100, "coins": 10, "threat": 0.3, "bonus": true },
+  { "id": "fast",   "type": "fast",   "gravityScale": 1.6, "launchVelocity": 500, "score": 15, "coins": 1, "threat": 1.5, "missHalfHearts": 1 },
+  { "id": "heavy",  "type": "heavy",  "gravityScale": 1.3, "score": 20,  "coins": 2,  "threat": 1.4, "missHalfHearts": 2 }
+]

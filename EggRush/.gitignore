@@ -1,0 +1,15 @@
+# build trees (Qt Creator uses build/ or build-*/ next to the sources)
+build/
+build-*/
+cmake-build-*/
+*.user
+*.user.*
+CMakeLists.txt.user*
+.qtcreator/
+.vscode/
+.idea/
+.cache/
+compile_commands.json
+# local save data / screenshots from --save-dir experiments
+save*/
+*.log

@@ -1,0 +1,27 @@
+{
+    "birds": [
+        {
+            "bird": "hen",
+            "interval": 2.2,
+            "jitter": 0.2,
+            "laneMax": 14,
+            "laneMin": 1
+        }
+    ],
+    "coinMultiplier": 1,
+    "duration": 75,
+    "eggMix": {
+        "normal": 1
+    },
+    "firstDrop": 1.2,
+    "forgivenessPx": 8,
+    "id": "1-2",
+    "name": "Wider Field",
+    "objective": {
+        "target": 3,
+        "type": "perfectStreak"
+    },
+    "order": 20,
+    "parScore": 890,
+    "world": 1
+}

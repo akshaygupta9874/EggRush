@@ -1,0 +1,34 @@
+{
+    "birds": [
+        {
+            "bird": "hen",
+            "interval": 2.6,
+            "jitter": 0.2,
+            "laneMax": 10,
+            "laneMin": 5
+        }
+    ],
+    "coinMultiplier": 1,
+    "duration": 60,
+    "eggMix": {
+        "normal": 1
+    },
+    "firstDrop": 1.2,
+    "forgiveFirstMiss": true,
+    "forgivenessPx": 8,
+    "id": "1-1",
+    "name": "First Catch",
+    "objective": {
+        "target": 20,
+        "type": "catchEggs"
+    },
+    "order": 10,
+    "parScore": 713,
+    "scripted": [
+        {
+            "egg": "golden",
+            "index": 11
+        }
+    ],
+    "world": 1
+}

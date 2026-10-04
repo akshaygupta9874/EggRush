@@ -1,0 +1,5 @@
+[
+  { "id": "hen",    "name": "Farm Hen",    "moveSpeed": 1800, "telegraph": 0.45 },
+  { "id": "moving", "name": "Moving Bird", "moveSpeed": 180,  "telegraph": 0.45 },
+  { "id": "fast",   "name": "Fast Bird",   "moveSpeed": 320,  "telegraph": 0.45 }
+]

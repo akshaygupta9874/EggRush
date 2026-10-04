@@ -1,0 +1,38 @@
+{
+    "birds": [
+        {
+            "bird": "hen",
+            "interval": 2,
+            "jitter": 0.2,
+            "laneMax": 15,
+            "laneMin": 0
+        }
+    ],
+    "coinMultiplier": 1,
+    "duration": 75,
+    "eggMix": {
+        "golden": 0.05,
+        "normal": 0.95
+    },
+    "firstDrop": 1.2,
+    "forgivenessPx": 8,
+    "id": "1-3",
+    "name": "Golden Hint",
+    "objective": {
+        "target": 2,
+        "type": "goldenCatches"
+    },
+    "order": 30,
+    "parScore": 1790.5,
+    "scripted": [
+        {
+            "egg": "golden",
+            "index": 9
+        },
+        {
+            "egg": "golden",
+            "index": 21
+        }
+    ],
+    "world": 1
+}

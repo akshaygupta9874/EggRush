@@ -1,0 +1,18 @@
+# One QtTest executable per area; CTest runs them all (`ctest --output-on-failure`).
+function(er_add_test name)
+  add_executable(${name} ${name}.cpp)
+  target_link_libraries(${name} PRIVATE er_content er_sim Qt6::Test Qt6::Core)
+  target_compile_definitions(${name} PRIVATE ER_DATA_DIR="${ER_DATA_DIR_PATH}")
+  er_set_warnings(${name})
+  set_target_properties(${name} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin/tests")
+  add_test(NAME ${name} COMMAND ${name})
+  set_tests_properties(${name} PROPERTIES ENVIRONMENT "QT_QPA_PLATFORM=offscreen")
+endfunction()
+
+er_add_test(test_invariants)
+er_add_test(test_validator)
+er_add_test(test_scoring)
+er_add_test(test_world)
+er_add_test(test_content)
+er_add_test(test_save)
+er_add_test(test_fairness)
